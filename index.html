@@ -73,7 +73,7 @@ async function analisis() {
   ).join("\n");
 
   try {
-    const res = await fetch("", {
+    const res = await fetch("https://activity-ai-backend.vercel.app/api/analyze", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
